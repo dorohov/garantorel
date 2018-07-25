@@ -1,0 +1,73 @@
+.bg-block__{
+	&card{		
+		position: absolute;
+		&.is--index-reviews{		
+			z-index: 1;
+			left: 28%;
+			top: 25%;
+			max-width: 410px;
+			max-height: 480px;
+			width: 22vw;
+			height: 25vw;	
+			color: fadeout(@white-d3, 40%);
+			display: none;
+			@media @media-point-screen {
+				display: block;
+			}	
+		}
+		&.is--index-contacts{		
+			z-index: 1;
+			left: 0;
+			bottom: 0;
+			max-width: 980px;
+			max-height: 1150px;
+			width: 52vw;
+			height: 60vw;	
+			color: fadeout(@white-e9, 60%);
+			transform: translate(-51%, 17%);
+			display: none;
+			@media @media-point-screen {
+				display: block;
+			}	
+		}
+		&.is--default{		
+			z-index: 1;
+			left: 5%;
+			top: 5%;
+			max-width: 475px;
+			max-height: 560px;
+			width: 26vw;
+			height: 31vw;	
+			color: fadeout(@white-e9, 60%);
+			display: none;
+			@media @media-point-screen {
+				display: block;
+			}	
+		}
+		&.is--about{		
+			z-index: 1;
+			left: 0;
+			top: 0;
+			max-width: 1075px;
+			max-height: 1235px;
+			width: 56vw;
+			height: 65vw;	
+			display: none;
+			@media @media-point-screen {
+				display: block;
+			}	
+		}
+		svg{display: block;}
+	}
+	&inner{
+		position: absolute;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: 100%;
+		height: 100%;
+		&.is--about{
+			background-position: top left;			
+		}		
+	}
+}

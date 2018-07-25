@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ru-RU"> 
+	<head>
+		[[azbntple 
+			tpl="/src/block/site/default/head/.html" 
+			title=" "
+			description=" "
+		]] 		
+	</head>
+	<body> 
+		[[azbntple 
+			tpl="/src/block/site/default/navbar/.html"
+			class="navbar-site scroll"
+			navbar_prefix="navbar__"  
+			navbar_mod="  "  
+		]] 
+		<div class="content-block__panel">
+			[[azbntple  
+				tpl="/src/block/site/page/contacts.html" 
+				content_prefix="content-block__"   
+				content_mod="is--kontakty"
+				content_id="kontakty-block"
+				block_heading_mod="is--index-contacts"
+				block_heading_level="h2"
+				block_heading="Контакты"
+			]]	
+			[[azbntple 
+				tpl="/src/block/site/default/bg/card-svg.html"
+				block_prefix="bg-block__" 
+				block_mod="is--index-contacts"
+				block_bg="logotip-noname"
+			]]
+		</div>
+		[[azbntple 
+			tpl="/src/block/site/default/footer/.html"
+			footer_prefix="footer__" 
+		]]	
+		[[azbntple tpl="/src/block/site/default/script/script.html" ]]
+		[[azbntple tpl="/src/block/site/default/modals/include.html" ]]
+		[[azbntple tpl="/src/block/site/default/script/googleMap.html" ]]
+	</body>
+</html>

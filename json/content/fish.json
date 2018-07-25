@@ -1,0 +1,46 @@
+{
+	"contacts":{
+		"name":"Гарант",
+		"domain":"garantorel.ru",
+		"domain_link":"http://garantorel.ru/",
+		"color":"#C19B48",
+		"agreement_page":"agreement",
+		"copyright":"Гарант",
+		"email":"info@garantorel.ru",
+		"phone":" +7 (4862) 44-53-44",  
+		"phone_tel":"+74862445344", 
+		"phone1":" +7 (920) 808-37-77",  
+		"phone1_tel":"+79208083777",  
+		"phone2":" +7 (920) 087-37-77",  
+		"phone2_tel":"+79200873777",   
+		"clock":"",  
+		"inn":"5753059002",  
+		"ogrn":"1125740006908",  
+		"address":"г.&nbsp;Орёл, ул.&nbsp;Красина, д.&nbsp;1"
+	},
+	"soc":{
+		"vk":"https://vk.com/",
+		"fb":"https://www.facebook.com/",
+		"ok":"https://ok.ru/group/",
+		"tw":"https://twitter.com/",
+		"inst":"https://www.instagram.com/"
+	},
+	"page":{
+		"index":"/",
+		"about":"/about.html",
+		"services":"/services.html",
+		"services_card":"/services-card.html",
+		"reviews":"/reviews.html",
+		"contacts":"/contacts.html",
+		"404":"/404.html",
+		"sitemap":"/sitemap.html",
+		"style":"/style.html",
+		"agreement":"/agreement.html"
+	},	                           
+	"url-path-css":"/css",
+	"url-path-img":"/img",
+	"url-path-js":"/js",
+	"url-path-plugins":"/plugins",
+	"url-path-favicon":"/favicon",
+	"url-path-docs":"/docs"
+}
