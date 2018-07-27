@@ -29,7 +29,7 @@ function initMap() {
         scale: 1,
       }; */
       var iconOfficeOne = {   
-        url: '/img/svg/icon-map.svg',
+        url: '/wp-content/themes/azbn7theme/img/svg/icon-map.svg',
         size: new google.maps.Size(114, 125),
         origin: new google.maps.Point(0, 0),
         anchor: new google.maps.Point(53, 100)

@@ -1,8 +1,8 @@
 'use strict';
 $(function() { 
 	var CMS__TPL_PATH = '/wp-content/themes/azbn7theme';  
-	var CMS__TPL_PATH = '/garantorel';  
-	var CMS__TPL_PATH = '';  
+	//var CMS__TPL_PATH = '/garantorel';  
+	//var CMS__TPL_PATH = '';  
 	var reviews = $('[data-slider-slick="slick-reviews"]');	
 	var reviews_two = $('[data-slider-slick="slick-reviews-two"]');	
 	var gallery = $('[data-slider-slick="slick-gallery"]');	
