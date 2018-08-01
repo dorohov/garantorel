@@ -35,9 +35,12 @@ $(function() {
 		    }
 		]
 	});
+	reviews_two.on('init', function(event, slick, direction){
+		$('.slick-cloned .card-item__preview').removeAttr('data-fancybox');
+	});
 	reviews_two.slick({
-		slidesToShow: 1,
-		slidesToScroll: 1,
+		slidesToShow: 2,
+		slidesToScroll: 2,
 		infinite: true,
 		arrows: true,
 		dots: false,
@@ -47,8 +50,8 @@ $(function() {
 		    {
 				breakpoint: 768,
 				settings: {
-					slidesToShow: 3,
-					slidesToScroll: 3,
+					slidesToShow: 2,
+					slidesToScroll: 2,
 				}
 		    },
 		    {
