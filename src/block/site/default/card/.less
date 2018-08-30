@@ -590,7 +590,7 @@
 		padding-top: 5px;
 		padding-bottom: 5px;
 		line-height: @b-lh - 4;
-		color: @b-color;
+		color: @b-color-a;
 		//color: @black-23;
 		&.is--services-index{
 			font-size: @b-fs + 2;
@@ -610,10 +610,10 @@
 		}
 		&:hover{
 			//color: @black-23;
-			color: @b-color-a;
+			color: @b-color-a-hover;
 			&::before{
 				transform: translateX(10px) scale(6);
-				background-color: fadeout(@b-color-a-hover, 50%);
+				background-color: fadeout(@b-color-a, 80%);
 				//background-color: fadeout(@b-color-a-hover, 0%);
 				//background-color: fadeout(@orange, 50%);
 			}

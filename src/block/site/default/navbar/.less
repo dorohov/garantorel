@@ -656,7 +656,7 @@
 					padding-left: 35px;
 				}
 				.navbar-site.is--index.opacity &{
-					padding-left: 0px;
+					//padding-left: 0px;
 				}
 			}
 		}
@@ -678,12 +678,24 @@
 				display: block;
 			}
 			.navbar-site.is--index.opacity &{
-				display: none;
+				//display: none;
 			}
 		}
 		.navbar__tel:hover &{
 			//background-color: @blue-light;
 			//color: @white;
+		}
+	}
+	&tel-btn{
+		padding-top: 15px;
+		@media @media-point-screen-lg {
+			padding-top: 5px;
+			.navbar-site.is--index &{
+				display: none;
+			}
+			.navbar-site.is--index.opacity &{
+				display: block;
+			}
 		}
 	}
 	&mail{

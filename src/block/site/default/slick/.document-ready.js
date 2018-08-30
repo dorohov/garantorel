@@ -1,11 +1,11 @@
 'use strict';
 $(function() { 
-	var CMS__TPL_PATH = '/wp-content/themes/azbn7theme';  
-	//var CMS__TPL_PATH = '/garantorel';  
-	//var CMS__TPL_PATH = '';  
 	var reviews = $('[data-slider-slick="slick-reviews"]');	
 	var reviews_two = $('[data-slider-slick="slick-reviews-two"]');	
 	var gallery = $('[data-slider-slick="slick-gallery"]');	
+	var CMS__TPL_PATH = '/wp-content/themes/azbn7theme';  
+	//var CMS__TPL_PATH = '/garantorel';  
+	//var CMS__TPL_PATH = '';  
 	//local
 	var prevArrow = '<button type="button" class="btn-nav__link  is--prev  slick-prev"><div class="btn-nav__name  is--prev">Назад</div><div class="btn-nav__icon  is--prev"><svg class="icon-svg icon-pagin-prev" role="img"><use xlink:href="'+ CMS__TPL_PATH +'/img/svg/sprite.svg#pagin-prev"></use></svg></div></button>';
 	var nextArrow = '<button type="button" class="btn-nav__link  is--next  slick-next"><div class="btn-nav__name  is--next">Далее</div><div class="btn-nav__icon  is--next"><svg class="icon-svg icon-pagin-next" role="img"><use xlink:href="'+ CMS__TPL_PATH +'/img/svg/sprite.svg#pagin-next"></use></svg></div></button>';	

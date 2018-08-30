@@ -19,6 +19,13 @@
 		padding: 11.5px 3vw;
 	}
 }
+.btn-xs(){
+	@media @media-point-screen {
+		padding: 5px 15px;
+		font-size: @b-fs - 2;
+		line-height: @b-lh - 4;
+	}
+}
 .btn__{
 	&clearfix{
 		.btn-clearfix();
@@ -90,6 +97,9 @@
 		}	
 		&.is--sm{
 			.btn-sm();
+		}
+		&.is--xs{
+			.btn-xs();
 		}
 	}
 	&icon{

@@ -97,6 +97,9 @@
 </svg></div>
 								 +7 (4862) 44-53-44
 							</a>
+							<div class="navbar__tel-btn">				 	
+								<button type="button" class="btn__item is--xs" data-toggle="modal" data-target="#modal-call">Заказать звонок</button>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -364,8 +367,128 @@
 svg4everybody();
 document.createElement("picture");
 </script> 
-		
-
-
+		<div class="modal fade modal-base__modal" id="modal-message" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-base__dialog">
+		<div class="modal-body modal-base__body" >
+			<button type="button" class="btn-site  modal-base__close  modal-close" data-dismiss="modal" aria-hidden="true">
+				<svg class="icon-svg icon-modal-close" role="img">
+	<use xlink:href="/img/svg/sprite.svg#modal-close"></use>
+</svg>
+			</button>
+			<div class="modal-content modal-base__content">
+				<div class="page-header__block  is--modals">
+	<h4 class="page-header__heading  is--modals"><span>Ваше сообщение успешно отправлено!</span></h4>	
+	<div class="page-header__heading-small  is--modals">Мы свяжемся с вами в ближайшее время.</div>		
+</div>	
+			</div> 
+		</div>
+	</div>
+</div>
+<div class="modal fade modal-base__modal    " id="modal-call" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-base__dialog    ">
+		<div class="modal-body modal-base__body    " >
+			<button type="button" class="btn-site  modal-base__close  modal-close" data-dismiss="modal" aria-hidden="true">
+				<svg class="icon-svg icon-modal-close" role="img">
+	<use xlink:href="/img/svg/sprite.svg#modal-close"></use>
+</svg>
+			</button>
+			<div class="modal-content modal-base__content    ">
+				<div class="form-panel__panel    ">
+	<div class="form-panel__panel-inner    ">
+		<div class="page-header__block  is--modals">
+	<h3 class="page-header__heading  is--modals"><span>Заполните форму</span></h3>	
+	<div class="page-header__heading-small  is--modals"> и мы перезвоним вам в удобное время</div>		
+</div>
+		<form action="#" class="form__block    "  >
+	<input type="hidden" name="key" value="londonisthecapitalofgreatbritain">
+	<input type="hidden" name="f[Форма: Заполните форму]">
+	<div class="form__inner    "  >
+		<div class="row form__row      is--wrap">
+			<div class="cols form__cols      is--name">
+				<div class="form__item      is--name">
+	<input type="text"     class="form__control form-control validate[required, custom[onlyLetterSp]]          is--name" id="fm_call[name]" name="f[Имя]" placeholder="Имя">
+</div>
+			</div>
+			<div class="cols form__cols      is--tel">
+				<div class="form__item      is--tel">
+	<input type="tel"     class="form__control form-control validate[required, custom[phone]]          is--tel" id="fm_call[tel]" name="f[Номер телефона]" placeholder="Номер телефона">
+</div>
+			</div>
+			<div class="cols form__cols      is--agreement">
+				<div class="form__item  is--switch        ">
+	<div class="form__switch        ">
+		<input class="form__switch-input validate[required]            " id="fm_call[agreement]" name="f[Согласие на обработку персональных данных]" type="checkbox"  checked/>
+		<label for="fm_call[agreement]" class="form__switch-label              "></label> 
+		<label for="fm_call[agreement]" class="form__switch-text              "> 
+			Я согласен на обработку <a href='/agreement.html' target='_blank'>персональных данных</a>
+		</label>
+	</div>	
+</div>	
+			</div>
+			<div class="cols form__cols      is--btn">
+				<button type="submit" class="btn__item  is--sm">Отправить заявку</button>				
+			</div>
+		</div>	
+	</div> 
+</form> 	
+	</div>
+</div> 
+			</div> 
+		</div>
+	</div>
+</div>
+<div class="modal fade modal-base__modal    " id="modal-consalt" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-base__dialog    ">
+		<div class="modal-body modal-base__body    " >
+			<button type="button" class="btn-site  modal-base__close  modal-close" data-dismiss="modal" aria-hidden="true">
+				<svg class="icon-svg icon-modal-close" role="img">
+	<use xlink:href="/img/svg/sprite.svg#modal-close"></use>
+</svg>
+			</button>
+			<div class="modal-content modal-base__content    ">
+				<div class="form-panel__panel    ">
+	<div class="form-panel__panel-inner    ">
+		<div class="page-header__block  is--modals">
+	<h3 class="page-header__heading  is--modals"><span>Заполните форму</span></h3>	
+	<div class="page-header__heading-small  is--modals">чтобы получить бесплатную юридическую консультацию. Мы перезвоним вам в течении часа</div>		
+</div>
+		<form action="#" class="form__block    "  >
+	<input type="hidden" name="key" value="londonisthecapitalofgreatbritain">
+	<input type="hidden" name="f[Форма: Заполните форму]">
+	<div class="form__inner    "  >
+		<div class="row form__row      is--wrap">
+			<div class="cols form__cols      is--name">
+				<div class="form__item      is--name">
+	<input type="text"     class="form__control form-control validate[required, custom[onlyLetterSp]]          is--name" id="fm_call[name]" name="f[Имя]" placeholder="Имя">
+</div>
+			</div>
+			<div class="cols form__cols      is--tel">
+				<div class="form__item      is--tel">
+	<input type="tel"     class="form__control form-control validate[required, custom[phone]]          is--tel" id="fm_call[tel]" name="f[Номер телефона]" placeholder="Номер телефона">
+</div>
+			</div>
+			<div class="cols form__cols      is--agreement">
+				<div class="form__item  is--switch        ">
+	<div class="form__switch        ">
+		<input class="form__switch-input validate[required]            " id="fm_call[agreement]" name="f[Согласие на обработку персональных данных]" type="checkbox"  checked/>
+		<label for="fm_call[agreement]" class="form__switch-label              "></label> 
+		<label for="fm_call[agreement]" class="form__switch-text              "> 
+			Я согласен на обработку <a href='/agreement.html' target='_blank'>персональных данных</a>
+		</label>
+	</div>	
+</div>	
+			</div>
+			<div class="cols form__cols      is--btn">
+				<button type="submit" class="btn__item  is--sm">Получить</button>				
+			</div>
+		</div>	
+	</div> 
+</form> 	
+	</div>
+</div> 
+			</div> 
+		</div>
+	</div>
+</div>
 	</body>
 </html>

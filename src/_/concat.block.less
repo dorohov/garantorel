@@ -647,6 +647,13 @@
 		padding: 11.5px 3vw;
 	}
 }
+.btn-xs(){
+	@media @media-point-screen {
+		padding: 5px 15px;
+		font-size: @b-fs - 2;
+		line-height: @b-lh - 4;
+	}
+}
 .btn__{
 	&clearfix{
 		.btn-clearfix();
@@ -718,6 +725,9 @@
 		}	
 		&.is--sm{
 			.btn-sm();
+		}
+		&.is--xs{
+			.btn-xs();
 		}
 	}
 	&icon{
@@ -1559,7 +1569,7 @@
 		padding-top: 5px;
 		padding-bottom: 5px;
 		line-height: @b-lh - 4;
-		color: @b-color;
+		color: @b-color-a;
 		//color: @black-23;
 		&.is--services-index{
 			font-size: @b-fs + 2;
@@ -1579,10 +1589,10 @@
 		}
 		&:hover{
 			//color: @black-23;
-			color: @b-color-a;
+			color: @b-color-a-hover;
 			&::before{
 				transform: translateX(10px) scale(6);
-				background-color: fadeout(@b-color-a-hover, 50%);
+				background-color: fadeout(@b-color-a, 80%);
 				//background-color: fadeout(@b-color-a-hover, 0%);
 				//background-color: fadeout(@orange, 50%);
 			}
@@ -1996,6 +2006,9 @@
 	&cols{
 		width: 100%;
 		padding-top: 10px;
+		&.is--agreement{
+			padding-top: 20px;			
+		}
 		&.is--btn{
 			text-align: center;	
 			padding-top: 20px;
@@ -2047,6 +2060,10 @@
 				}
 			}
 		}
+	}
+	&text{
+		font-size: @b-fs - 2;
+		line-height: @b-lh - 4;
 	}
 	&item{
 		position: relative;
@@ -3316,7 +3333,7 @@ body.rtl .formError .formErrorArrow {
 					padding-left: 35px;
 				}
 				.navbar-site.is--index.opacity &{
-					padding-left: 0px;
+					//padding-left: 0px;
 				}
 			}
 		}
@@ -3338,12 +3355,24 @@ body.rtl .formError .formErrorArrow {
 				display: block;
 			}
 			.navbar-site.is--index.opacity &{
-				display: none;
+				//display: none;
 			}
 		}
 		.navbar__tel:hover &{
 			//background-color: @blue-light;
 			//color: @white;
+		}
+	}
+	&tel-btn{
+		padding-top: 15px;
+		@media @media-point-screen-lg {
+			padding-top: 5px;
+			.navbar-site.is--index &{
+				display: none;
+			}
+			.navbar-site.is--index.opacity &{
+				display: block;
+			}
 		}
 	}
 	&mail{
@@ -3953,7 +3982,7 @@ body.rtl .formError .formErrorArrow {
 					
 		}
 		&.is--modals{
-			.heading5();
+			.heading3();
 			text-align: center;
 			font-weight: 700;
 			color: @b-color-h;
